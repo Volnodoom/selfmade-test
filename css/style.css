@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  local("Gilroy"),
+  url("../fonts/gilroy-regular.woff2") format("woff2"), 
+  url("../fonts/gilroy-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: 
+  local("Gilroy"),
+  url("../fonts/gilroy-medium.woff2") format("woff2"), 
+  url("../fonts/gilroy-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: 
+  local("Gilroy"),
+  url("../fonts/gilroy-semibold.woff2") format("woff2"), 
+  url("../fonts/gilroy-semibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: 
+  local("Gilroy"),
+  url("../fonts/gilroy-bold.woff2") format("woff2"), 
+  url("../fonts/gilroy-bold.woff") format("woff");
+}
+
+/* Variables */
+:root {
+  --basic-white: #FFFFFF;
+  --basic-black: #2F2F2F;
+  --basic-fuschia: #EF5DA8;
+  --basic-fuschia-80: #F178B6;
+  --basic-iris: #5D5FEF;
+  --basic-iris-60: #A5A6F6;
+  --basic-iris-pale: #D6D6FF;
+  --basic-iris-dark: #5556D3;
+  --basic-jade: #3AC49F;
+  --basic-grey: #DDDDDD;
+  --basic-grey-light: #F0F0F0;
+  --basic-grey-middle: #EDEDED;
+}
+
+/* Global */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  height: 100%;
+}
